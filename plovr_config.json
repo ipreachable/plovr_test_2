@@ -18,5 +18,5 @@
     }
   },
   "module-output-path": "build/modules/%s.js",
-  "module-production-uri": "build/modules/%s.js"
+  "module-production-uri": "js/%s.js"
 }
