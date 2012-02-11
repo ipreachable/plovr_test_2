@@ -1,0 +1,2 @@
+function Ed(a,b){$.call(this,b);this.Y=a}B(Ed,$);Ed.prototype.m=function(){this.i=this.p.m("SPAN",["label","label-warning"],this.Y)};Ed.prototype.fa=function(){var a=this.G();Kc(ud(this),a,"click",function(){window.alert(this.Y)},m,this)};rd("yasub");
+//@ sourceURL=js/yasub.js

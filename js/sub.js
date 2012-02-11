@@ -1,0 +1,2 @@
+function Dd(a,b){$.call(this,b);this.Y=a}B(Dd,$);Dd.prototype.m=function(){this.i=this.p.m("SPAN",["label label-important"],this.Y)};Dd.prototype.b=function(){Dd.l.b.call(this);delete this.Y};rd("sub");
+//@ sourceURL=js/sub.js
