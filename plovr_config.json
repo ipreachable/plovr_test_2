@@ -1,0 +1,22 @@
+{
+  "id": "module-example",
+  "paths": ["js"],
+  "mode": "ADVANCED",
+  "level": "VERBOSE",
+  "modules": {
+    "app": {
+      "inputs": "js/app_init.js",
+      "deps": []
+    },
+    "sub" : {
+      "inputs": "js/sub_init.js",
+      "deps": ["app"]
+    },
+    "yasub" : {
+      "inputs": "js/yasub_init.js",
+      "deps": ["app"]
+    }
+  },
+  "module-output-path": "build/modules/%s.js",
+  "module-production-uri": "build/modules/%s.js"
+}
